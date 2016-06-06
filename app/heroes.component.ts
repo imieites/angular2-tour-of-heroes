@@ -17,7 +17,7 @@ import { HeroService } from './hero.service';
           [class.selected]="hero === selectedHero">
         <span class="badge">{{hero.id}}</span> {{hero.name}}
       </li>
-    </ul>    
+    </ul>
     `,
   styles:[`
   .selected {
